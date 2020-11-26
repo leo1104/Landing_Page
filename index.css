@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: initial;
+}
+body{
+    background-color: #21212e;
+    color: white;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+/* header */
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.links>ul{
+    display: flex;
+}
+ul>li{
+    list-style: none;
+    margin-right: 2rem;
+}
+ul>li>a{
+    text-decoration: none;
+    color: grey;
+}
+
+/* Music */
+.music{
+    margin:2rem;
+}
+.img{
+    display: flex;
+    position: relative;
+    float: right;
+    width: 63%;
+}
+
+.img1{
+    position: relative;
+    left: 13rem;
+
+}
+.img2{
+    position: relative;
+    z-index: 1;
+}
+.img3{
+    position: relative;
+    right: 13rem;
+}
+
+.content{
+    padding: 7rem 0;
+}
+.content>h1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.content>p{
+    color: grey;
+}
+.music-img{
+    display: flex;
+}
+.music-img>a{
+    text-decoration: none;
+}
+.icon{
+    width:100%;
+display: flex;
+}
+
+/* About */
+.about{
+    margin :2rem;
+}
+.about-img{
+    display: flex;
+    position: relative;
+    float: right;
+    width: 63%;
+}
+
+.about1{
+    color: #21212e;
+    position: relative;
+    left: 23rem;
+    transform: rotate(15deg);
+}
+
+.about2{
+    position: relative;
+    transform: rotate(340deg);
+}
+
+.about3{
+    position: relative;
+    right: 23rem;
+    
+}
+
+.aboutText{
+    padding: 12rem 0;
+}
+
+.aboutText>h1{
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-bottom: 1.5rem;
+}
+.aboutText>h3{
+padding-bottom: 1rem;
+font-size: 1.5rem;
+}
+.aboutText>p{
+    font-size: 1.2rem;
+    color: grey;
+}
+
+/* showcase */
+.showcase{
+    margin: 2rem;
+}
+.showcase>h1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+
+
+/* Features */
+.feature{
+    margin: 2rem 2rem 0 2rem;
+}
+.feature>h1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.cards{
+    float: right;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(223px,1fr));
+    padding: 20px;
+    grid-gap: 40px;
+    width: 50%;
+    }
+    
+    .card{
+    background-color: var(--card-base);
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+    }
+    
+    .container{
+        position: relative;
+    }
+    
+    .container>img{
+        width: 20%;
+        display: block;
+        border-radius: 20px 20px 0 0;
+    }
+    
+    .details{
+        padding: 20px 10px;
+    }
+    
+    .details>h3{
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+        margin: 10px 0 15px 0;
+    }
+    
+    .details>p{
+        color: #a0a0a0;
+        font-size: 15px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+    
+
+    .card1{
+        position: relative;
+        top: 9rem;
+    }
+    .card2{
+        position: relative;
+    }
+
+    .card3{
+        position: relative;
+        left: 21.3rem;
+        
+    }
+
+    .fet-details{
+        padding: 12rem 0;
+    }
+
+    .fet-details>h3{
+        font-size: 2rem;
+padding-bottom: 2rem;
+    }
+    .fet-details>p{
+        font-size: 1.2rem;
+        color: grey;
+    }
+    .fet-details>button{
+        border: none;
+        padding: 0.7rem 3rem;
+        background-color: #46c2ff;
+        color: white;
+        border-radius: 0.4rem;
+        margin-top: 2rem;
+    }
+    /* Reviews */
+    .review{
+        margin: 0 2rem 2rem 2rem;
+    }
+    .review>h1{
+        font-size: 3rem;
+        font-weight: bolder;
+    }
+    
+    .cards2{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(223px,1fr));
+        padding: 20px;
+        grid-gap: 40px;
+        }
+        
+        .card2{
+        background-color: var(--card-base);
+        border-radius: 20px;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+        }
+        
+        .contai2{
+            position: relative;
+            
+        }
+        
+        .contai2>img{
+            width: 50%;
+            display: block;
+            border-radius: 20px 20px 0 0;
+            padding: 1rem 5rem;
+        }
+        
+        .details2{
+            padding: 20px 10px;
+        }
+        
+        .details2>h3{
+            color: white;
+            font-weight: 600;
+            font-size: 18px;
+            margin: 10px 0 15px 0;
+            text-align: center;
+        }
+        
+        .details2>p{
+            color: #a0a0a0;
+            font-size: 15px;
+            line-height: 30px;
+            font-weight: 400;
+        }
+
+/* Subscribe */
+
+.subs{
+    margin: 2rem;
+    display: flex;
+
+}
+
+.subs>h2{
+    font-size: 2rem;
+    margin: 0 4rem 0 2rem;
+
+}
+.subs>input{
+    border: none;
+    padding: 0rem 10rem;
+    border-radius: 2rem;
+    margin: 0 4rem 0 0;
+}
+
+.subs>button{
+    border: none;
+    padding: 1rem 5rem;
+    background-color: #46c2ff;
+    color: white;
+    border-radius: 0.4rem;
+    margin: 0 2rem 0 0;
+}
+
+/* footer */
+.shadow{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.18)
+}
+
+.fot{
+    display: flex;
+    margin: 2rem 2rem 0 2rem;
+    
+}
+
+.contact{
+    padding: 0 3rem 0 3rem;
+}
+
+.social{
+    padding: 0 3rem 0 2rem;
+    margin-top: 1rem;
+}
+
+.social-img{
+    margin-top: 1rem;
+}
