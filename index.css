@@ -326,3 +326,122 @@ padding-bottom: 2rem;
 .social-img{
     margin-top: 1rem;
 }
+
+/* MOBILE VIEW */
+
+@media screen and (max-width:720px){
+    .head{
+        margin: 1rem 0 0 0;
+    }
+    .head>h1{
+        font-size: 1.5rem;
+    }
+
+    ul>li{
+        margin-right: 1rem;
+    }
+    ul{
+        margin-top: 1rem;
+    }
+   
+    .img1{
+        width: 50%;
+        height: 50%;
+        left: 4rem;
+    }
+    .img2{
+        width: 50%;
+        height: 50%;
+    }
+    .img3{
+        width: 50%;
+        height: 50%;
+        right: 4rem;
+    }
+    .content{
+        padding: 0;
+    }
+    .content>h1{
+        font-size: 1.5rem;
+    }
+
+    .about1{
+        width: 50%;
+        height: 50%;
+        left: 6rem;
+    }
+    .about2{
+        width: 50%;
+        height: 50%;
+    }
+    .about3{
+        width: 50%;
+        height: 50%;
+        right: 6rem;
+    }
+    .aboutText{
+        padding: 0;
+    }
+    .aboutText>h1{
+        padding: 0;
+        font-size: 1.5rem;
+    }
+    .aboutText>h3{
+        padding: 0;
+        font-size: 1rem;
+    }
+    .aboutText>p{
+        font-size: 0.7rem;
+    }
+    .showcase{
+        margin: 0;
+    }
+    .showcase>h1{
+        font-size: 1.5rem;
+    }
+    .feature>h1{
+        font-size: 1.5rem;
+    }
+    .cards{
+        display: block;
+        padding: 0;
+        width: 100%;
+    }
+    .card{
+        margin: 2rem;
+    }
+    .card1{top: 0;}
+    .card3{left: 0;}
+
+    .fet-details{
+        padding: 1rem 0;
+    }
+    .subs{
+    flex-direction: column;
+    }
+    .subs>h2{
+        font-size: 1.5rem;
+    }
+    .subs>input{
+        padding: 0 2rem;
+        margin: 1rem 0 0 0;
+    }
+
+    .subs>button{
+        margin: 1rem 0 0 0;
+    }
+    .fot{
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    .fot>p{
+        margin-bottom: 0.5rem;
+    }
+    .contact{
+        margin-right: 0.5rem;
+    }
+    .social{
+        padding: 0;
+        margin: 0;
+    }
+}
